@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/886767522152611910/920525469168852992/IMG_20211215_005920.jpg" type="image/x-icon">
+
+    <title>Viaja53</title>
+</head>
+
+<body>
+    <header class="top_nav">
+        <div>
+            <nav>
+                <ul class="nav_main">
+                    <img src="imagens/favicon.jpeg" alt="logo">
+                    <li class="nav_list">
+                        <a class="nav_item" href="#">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a class="nav_item" href="#destinoP">Destino</a>
+                    </li>
+                    <li class="nav_list">
+                        <a class="nav_item" href="#promocao">Promoções</a>
+                    </li>
+                    <li class="nav_list">
+                        <a class="nav_item" href="#tituloCadastro">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>       
+        <div class="padding_header">
+            
+            <img id="logo" src="imagens/favicon.jpeg" alt="logo">
+        <h1 class="nomeAgencia">Agencia Viaja53</h1>
+        <p class="bemVindo">
+                Bem vindo(a) a mais nova agencia de viagens do Brasil!
+        </p>
+        <ul type="circle" class="nav_main2">
+            <li class="nav_list2">
+                <a class="nav_item2" href="#home">Home</a>
+            </li>
+            <li class="nav_list2">
+                <a class="nav_item2" href="#destinoP">Destino</a>
+            </li>
+            <li class="nav_list2">
+                    <a class="nav_item2" href="#promocao">Promoções</a>
+            </li>
+            <li class="nav_list2">
+                <a class="nav_item2" href="#tituloCadastro">Contato</a>
+            </li>
+        </ul>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="imagemFundo">
+                <div class="card-body">
+                    <h3 class="card_title">Destinos:</h3>
+                    <div class="dest">
+                        <br>
+                        <h4><ins>Região Sudeste</ins></h4>
+                        <ul>
+                            <li class="ponto">Rio de Janeiro</li>
+                            <li class="ponto">São Paulo</li>
+                            <li class="ponto">Belo Horizonte</li>
+                        </ul>
+                        <br>
+                        <h4><ins>Região Nordeste</ins></h4>
+                        <ul>
+                            <li class="ponto">Salvador</li>
+                            <li class="ponto">Recife</li>
+                        </ul>
+                        <br>
+                        <h4><ins>Região Sul</ins></h4>
+                        <ul>
+                            <li class="ponto">Porto Alegre</li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+                <div id="long" class="card-body">
+                    <h3 class="card_title">Objetivo da Viaja53:</h3>
+                    <p>Por sermos uma nova agencia, so temos alguns destinos à oferecer por enquanto, contemplando apenas alguns estados da região sudeste, nordeste e sul. Por este motivo, estamos com bastante desconto a oferecer para nossos clientes, com o objetivo de crescermos e assim possibilitar novos destinos e futuramente proporcionar viagens para o exterior. Por isso aproveite nossas ofertas, pois assim, alem de voce estar conhecendo novos lugares, também estará nos ajudando a chegarmos ao nosso objetivo!</p>
+                </div>
+                <div class="card-body">
+                    <h3 class="card_title">Aviso importante:</h3>
+                    <p>
+                        Nos <em>não trabalhamos com reembolso</em>, entao tenha a certeza que quer e conseguirá fazer a viagem, para que assim voce nao tenha prejuízo! 
+                    </p>
+                </div>
+            </div>
+        </section>
+    <!-- ============Destinos================ -->
+        <section id="destinoP">
+            <div class="separacao"></div>
+            <div>
+                <h1 class="tituloCompra" >Compre seu destino</h1>
+                <div class="img-line">
+                    <img class="img" src="imagens/banner-rj1.jpg" alt="rio de janeiro">
+                    <img class="img" src="imagens/banner-salvador.jpg" alt="rio de janeiro">
+                    <img class="img" src="imagens/banner-recife.png" alt="rio de janeiro">
+                    <img class="img" src="imagens/banner-portoAlegre.jpg" alt="rio de janeiro">
+                    <img class="img" src="imagens/banner-bh1.jpg" alt="rio de janeiro">
+                </div>
+                <div class="destino">
+                    <div class="selector">
+                        <div class="lineSelector">
+                            <label for="orgigem">Origem:</label>
+                            <select class="lugar" name="" id="">
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="sal">Salvador</option>
+                                <option value="rec">Recife</option>
+                                <option value="pa">Porto Alegre</option>
+                                <option value="bh">Belo Horizonte</option>
+                                <option value="sp">São Paulo</option>
+                            </select>
+                        </div>
+                        <div class="lineSelector">
+                            <label for="Destino">Destino:</label>
+                            <select class="lugar" name="destino" id="">
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="sal">Salvador</option>
+                                <option value="rec">Recife</option>
+                                <option value="pa">Porto Alegre</option>
+                                <option value="bh">Belo Horizonte</option>
+                                <option value="sp">São Paulo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="selector">
+                        <div class="lineSelector">
+                            <label for="ida">Ida:</label>
+                            <input class="data" type="date" name="ida" id="ida">
+                        </div>
+                        <div class="lineSelector">
+                            <label for="volta">Volta:</label>
+                            <input class="data" type="date" name="volta" id="volta">
+                        </div>
+                    </div>
+                    <div class="selector">    
+                        <div class="lineSelector">
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+                        <div class="lineSelector">
+                            <label for="cpf">CPF:</label>
+                            <input type="cpf" id="cpf" required> 
+                        </div>
+                        <div class="lineSelector">
+                            <label for="volta">Nascimento:</label>
+                            <input class="data" type="date" name="volta" id="volta">
+                        </div>
+                        <div class="lineSelector">
+                        <button class="compra" type="submit" name="compra" id="compra">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- =============Promoçoes================ -->
+        <section id="promocao">
+            <div class="separacao"></div>
+            <h1 id="promocoes" class="tituloPromocoes">Promoções</h1>
+            <br>
+            <div class="card-line">
+                <div class="card">
+                    <div class="image-box">
+                        <img class="img-card" src="imagens/banner-rj1.jpg" alt="rj">
+                    </div>
+                    <div class="texts">
+                        <h2>Promoção para Rio de Janeiro</h2>
+                        <p>Ida: 20/01/2022</p>
+                        <p>Volta: 30/01/2022</p>
+                        <p>Hotel incluso</p>
+                        <p>Pacote turístico incluso</p>
+                        <p>R$550,00</p>
+                    </div>
+                    <div class="buttons">
+                        <button id="mid" class="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img class="img-card" src="imagens/banner-salvador.jpg" alt="rj">
+                    </div>
+                    <div class="texts">
+                        <h2>Promoção para Salvador</h2>
+                        <p>Ida: 15/03/2022</p>
+                        <p>Volta: 23/03/2022</p>
+                        <p>Hotel incluso</p>
+                        <p>Pacote turístico incluso</p>
+                        <p>R$600,00</p>
+                    </div>
+                    <div class="buttons">
+                        <button id="mid" class="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img class="img-card" src="imagens/banner-recife.png" alt="rj">
+                    </div>
+                    <div class="texts">
+                        <h2>Promoção para Recife</h2>
+                        <p>Ida: 20/02/2022</p>
+                        <p>Volta: 08/03/2022</p>
+                        <p>Hotel incluso</p>
+                        <p>Pacote turístico incluso</p>
+                        <p>R$450,00</p>
+                    </div>
+                    <div class="buttons">
+                        <button id="mid" class="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img class="img-card" src="imagens/banner-portoAlegre.jpg" alt="rj">
+                    </div>
+                    <div class="texts">
+                        <h2>Promoção para Porto Alegre</h2>
+                        <p>Ida: 02/06/2022</p>
+                        <p>Volta: 06/06/2022</p>
+                        <p>Hotel incluso</p>
+                        <p>Pacote turístico incluso</p>
+                        <p>R$350,00</p>
+                    </div>
+                    <div class="buttons">
+                        <button id="mid" class="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="promo" class="separacao"></div>
+        </section>
+
+    <!-- =============Contato====================== -->
+        <section class="sectionContato">
+
+            <div>
+                <h1 id="tituloCadastro">Entre em Contato</h1>
+                <br>
+                <li class="ponto2">Email e telefone da Viaja53</li>
+                    <ul type="circle">
+                        <li>Email: xxxxxxxxx@gmail.com</li>
+                        <li>Telefone: (21)99999-9999</li>
+                    </ul>
+                    <br><br>
+                <p id="subtituloCadastro">Complete com suas informações</p>
+                <br>
+            </div>
+            <form>
+                <fieldset class="grupo">
+
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="sobrenome">sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+
+                </fieldset>
+
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required> 
+                </div>
+
+                <div class="campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="cpf" id="cpf" required> 
+                </div>
+                <div class="campo">
+                    <label for="volta">Nascimento:</label>
+                    <input class="data" type="date" name="volta" id="volta">
+                </div>
+                <div class="campo">
+                <br>
+                    <label for="experiencia">Conte um pouco da sua experiencia com a nossa agencia:</label>
+                    <br>
+                    <textarea style="width: 26em;" name="experiencia" id="experiencia" cols="30" rows="6"></textarea>              
+                </div>
+                <button class="botao" type="submit">Concluído</button>
+            </form>
+            <br><br>
+        </section>
+    </main>
+    <footer>
+        <div class="separacaoFooter">
+            <p class="letraFooter">Feito por Carine Horta/ Turma: Tarde1</p>
+        </div>
+    </footer>
+</body>
+
+</html>
