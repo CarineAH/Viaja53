@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CRUDMVC.Migrations
 {
-    [DbContext(typeof(Contexto))]
+    [DbContext(typeof(Banco))]
     [Migration("20211215145532_FirstMigration]")]
     partial class FirstMigration
     {

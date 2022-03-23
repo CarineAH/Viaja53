@@ -7,12 +7,12 @@ using System;
 
 namespace CRUDMVC.Controllers
 {
-    public class ClienteController : Controller
+    public class ClienteControl : Controller
     {
         [HttpGet]
         public IActionResult Index()
         {
-            var dbcontext = new Contexto();
+            var dbcontext = new Banco();
 
             ViewData["clientes"] = dbcontext.Clientes.Where(p => p.Id > 0).ToList();
             return View();
@@ -21,7 +21,7 @@ namespace CRUDMVC.Controllers
         [HttpPost]
         public IActionResult Index(Cliente cliente)
         {
-            var dbcontext = new Contexto();
+            var dbcontext = new Banco();
             dbcontext.Add(cliente);
             dbcontext.SaveChanges();
 
@@ -31,7 +31,7 @@ namespace CRUDMVC.Controllers
         [HttpPost]
         public IActionResult Deletar(Cliente cliente)
         {
-            var dbcontext = new Contexto();
+            var dbcontext = new Banco();
 
             var clienteDelete = dbcontext.Clientes.Find(cliente.Id);
             dbcontext.Remove(clienteDelete);
@@ -43,7 +43,7 @@ namespace CRUDMVC.Controllers
         [HttpPost]
         public IActionResult Atualizar(Cliente novosDadosCliente)
         {
-            var dbcontext = new Contexto();
+            var dbcontext = new Banco();
 
             var antigosDadosCliente = dbcontext.Clientes.Find(novosDadosCliente.Id);
 

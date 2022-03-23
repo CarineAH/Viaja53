@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace CRUDMVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeC : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<HomeC> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeC(ILogger<HomeC> logger)
         {
             _logger = logger;
         }

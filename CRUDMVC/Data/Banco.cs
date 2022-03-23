@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CRUDMVC.Data
 {
-    public class Contexto : DbContext
+    public class Banco : DbContext
     {
         public DbSet<Cliente> Clientes { get; set; }    
 

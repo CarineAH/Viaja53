@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GABRIEL\\Desktop\\CRUDMVC\\CRUDMVC.csproj": {}
+    "C:\\Users\\Abreu\\Source\\Repos\\Viaja53\\CRUDMVC\\CRUDMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GABRIEL\\Desktop\\CRUDMVC\\CRUDMVC.csproj": {
+    "C:\\Users\\Abreu\\Source\\Repos\\Viaja53\\CRUDMVC\\CRUDMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GABRIEL\\Desktop\\CRUDMVC\\CRUDMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Abreu\\Source\\Repos\\Viaja53\\CRUDMVC\\CRUDMVC.csproj",
         "projectName": "CRUDMVC",
-        "projectPath": "C:\\Users\\GABRIEL\\Desktop\\CRUDMVC\\CRUDMVC.csproj",
-        "packagesPath": "C:\\Users\\GABRIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GABRIEL\\Desktop\\CRUDMVC\\obj\\",
+        "projectPath": "C:\\Users\\Abreu\\Source\\Repos\\Viaja53\\CRUDMVC\\CRUDMVC.csproj",
+        "packagesPath": "C:\\Users\\Abreu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abreu\\Source\\Repos\\Viaja53\\CRUDMVC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\GABRIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Abreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
